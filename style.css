@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    background: rgb(15, 15, 15);
+}
+nav{
+    background: #19398A;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #131921; */
+    padding: 10px 20px;
+    color:#F95C0D;
+}
+nav img{
+    height: 55px;
+    margin-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none; 
+    margin: 10px 29px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+    padding: 15px;
+    font-size: 21px;
+
+}
+nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.teams{
+    align-items: center;
+    position: relative;
+}
+.logo_ipl{
+    position: absolute;
+    width: 110px;
+    align-items: center;
+}
+
+.trophy{
+    cursor: pointer;
+    margin-left: 570px;
+}
+
+.main-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main-logo img{
+    height: 100px;    
+}
+#ipl-teams{
+    margin-top: 80px;
+    justify-content: center;
+}
+.first-column{
+    display: flex;
+    justify-content: center;
+    
+}
+.csk-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #1C1C1C;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.csk-card:hover, .dc-card:hover, .gt-card:hover, .kkr-card:hover, .lsg-card:hover, .srh-card:hover, .rcb-card:hover, .mi-card:hover, .pb-card:hover, .rr-card:hover {
+    transform: scale(1.05);
+}
+
+.csk-upper-section {
+    background-color: #FFD700; 
+    height: 180px;
+    width: 300px;
+    border-radius: 15px 15px 100% 100%;
+    top: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.csk-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.csk-logo img {
+    width: 100px;
+    height: auto;
+}
+.csk-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+/* dc-------------------------------------------------------- */
+.dc-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,#051677 1%,#001939 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.dc-upper-section {
+    background-color: #bb2a25; 
+    height: 180px;
+    width: 300px;
+    border-radius: 15px 15px 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dc-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dc-logo img {
+    width: 100px;
+    height: auto;
+}
+.dc-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+.gt-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 128, 0.278);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.gt-upper-section {
+    background-color: #77c7f2; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gt-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gt-logo img {
+    width: 100px;
+    height: auto;
+}
+.gt-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.kkr-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(49,36,83,.8) 1%,rgba(48,35,83,.8) 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.kkr-upper-section {
+    background: #ecc542; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kkr-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kkr-logo img {
+    width: 100px;
+    height: auto;
+}
+.kkr-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+.second-column{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.lsg-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(1,86,225,.8) 1%,rgba(1,86,225,.8) 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.lsg-upper-section {
+    background-color: #fff; 
+    height: 180px;
+    width: 300px;
+    border-radius: 15px 15px 100% 100%;
+    top: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lsg-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lsg-logo img {
+    width: 100px;
+    height: auto;
+}
+.lsg-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+/* mi-------------------------------------------------------- */
+.mi-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(21,58,117,.8) 1%,rgba(23,58,118,.8) 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.mi-upper-section {
+    background-color: #2d6ab1; 
+    height: 180px;
+    width: 300px;
+    border-radius: 15px 15px 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mi-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mi-logo img {
+    width: 100px;
+    height: auto;
+}
+.mi-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+.pb-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(48,64,117,.8) 1%,rgba(48,64,117,.8));
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.pb-upper-section {
+    background-color: #d71920; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pb-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pb-logo img {
+    width: 100px;
+    height: auto;
+}
+.pb-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.rr-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(1,78,162,.8) 1%,rgba(1,78,162,.24) 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.rr-upper-section {
+    background: #eb83b5; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rr-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rr-logo img {
+    width: 100px;
+    height: auto;
+}
+.rr-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+.third-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rcb-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(203,47,47,.8) 1%,rgba(17,19,16,.8) 110.83%);
+    cursor: pointer;
+    margin-right: 26px;
+    transition: transform 0.3s ease;
+}
+.rcb-upper-section {
+    background: #2b2a29; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rcb-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rcb-logo img {
+    width: 100px;
+    height: auto;
+}
+.rcb-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+.srh-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(137.7deg,rgba(139,40,36,.8) 1%,rgba(140,40,35,.8) 110.83%);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.srh-upper-section {
+    background: #f26522; 
+    height: 180px;
+    width: 300px;
+    border-radius: 25px 25px 160% 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.srh-lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.srh-logo img {
+    width: 100px;
+    height: auto;
+}
+.srh-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #081e40;
+    height: 100%;
+}
+
+
+
+
